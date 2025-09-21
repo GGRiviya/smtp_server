@@ -1,11 +1,12 @@
 {
   "name": "smtp_server",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "A Node.js Express server for handling contact form submissions and sending emails.",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "nodemailer": "^7.0.6",
@@ -17,8 +18,15 @@
     "type": "git",
     "url": "git+https://github.com/GGRiviya/smtp_server.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "smtp",
+    "nodemailer",
+    "express",
+    "server",
+    "email",
+    "contact form"
+  ],
+  "author": "GGRiviya",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GGRiviya/smtp_server/issues"
